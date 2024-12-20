@@ -1,0 +1,25 @@
+{
+  "name": "tasktrackercli",
+  "version": "1.0.0",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "task": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.2.0",
+    "mongoose": "^8.9.2",
+    "nanoid": "^5.0.9",
+    "ora": "^8.1.1"
+  }
+}
